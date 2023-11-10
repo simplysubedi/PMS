@@ -1,0 +1,16 @@
+server:
+  servlet:
+    context-path: /api/v1/
+
+spring:
+  profiles:
+    active: dev
+#    active: prod
+
+
+#  config:
+#    activate:
+#      on-profile: dev
+
+  application:
+    name: PMSBackAPI
